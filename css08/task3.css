@@ -1,0 +1,47 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.birinci{
+  background-color: turquoise;
+}
+.birinci h1{
+  color: white;
+}
+.ikinci h1{
+  color: gray;
+}
+.ikinci h5{
+  color: gray;
+}
+.ucuncu{
+  background-color: teal;
+}
+
+.ucuncu h1{
+  color: white;
+}
+.ucuncu p {
+  color: white;
+}
+.div1{
+  width: 20%;
+  margin: 30px;
+}
+.div2{
+  width: 20%;
+  margin: 30px;
+}
+.div3{
+  width: 20%;
+  margin: 30px;
+}
+.ucuncu{
+  display: flex;
+}
+.ikinci{
+  width: 20%;
+  margin: 30px;
+}

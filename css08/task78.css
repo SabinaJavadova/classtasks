@@ -1,0 +1,12 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* .items .animal{
+  color: blue;
+} */
+.items div .parag{
+  background-color: red;
+}

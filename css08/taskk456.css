@@ -1,0 +1,23 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.book{
+  background-color: red;
+
+}
+#pen{
+  background-color: green;
+}
+.items div p{
+color: yellow;
+}
+
+
+.items #animal span {
+background-color: pink; 
+
+
+}
