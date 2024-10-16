@@ -1,0 +1,59 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+
+.col-3 .ikon{
+  background-color: #DCF2ED;
+  width: 56px;
+  height: 56px;
+  border-radius: 8px;
+  padding: 16px;
+  gap: 10px;
+}
+
+.ikon i {
+  font-size: 20px;
+}
+
+.col-3 h1 {
+  color: #FFFFFF;
+  size: 18px;
+
+}
+.col-3 p {
+  font-size: 16px;
+  color: #FFFFFF;
+}
+
+#sec1 {
+  background-color: #20484F;
+  padding: 80px;
+}
+
+.col-12 h1{
+ color: #FFFFFF;
+ size: 2rem;
+ padding: 10px;
+ 
+}
+
+.col-12 p {
+  size: 1rem;
+  color: #FFFFFF;
+  margin-bottom: 70px;
+}
+
+.col-3{
+  width: 266px;
+height: 172px;
+top: 218px;
+left: 120px;
+gap: 0px;
+opacity: 0px;
+
+}
+

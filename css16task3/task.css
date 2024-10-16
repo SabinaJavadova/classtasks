@@ -1,0 +1,121 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 300px;
+
+}
+
+.items ul{
+  display: flex;
+  gap: 15px;
+}
+
+img{
+  width: 170px;
+
+}
+.logo {
+  width: 150px;
+  
+}
+
+ .items a {
+font-size: 18px;
+  color:rgb(83, 83, 83) ;
+ }
+
+ .loc i{
+  color: red;
+  padding: 3px;
+ }
+
+ .sear i {
+  border: 1px solid red;
+  border-radius: 8px;
+  padding: 10px;
+  color: red;
+ }
+
+ .menu ul{
+  display: flex;
+  gap: 35px;
+  padding: 30px 300px;
+ }
+.menu ul li {
+  color: #2e3131;
+}
+ .menu {
+  background-color: #e8ecf1;
+  display: flex;
+ }
+
+ button {
+  background-color: red;
+  color: white;
+  border-radius: 8px;
+  padding: 6px 13px;
+  margin-top: 23px;
+  border: none;
+  cursor: pointer;
+ }
+.butons {
+
+  display: none;
+
+}
+
+.butonns {
+  gap: 10px;
+  display: flex;
+  
+
+}
+
+ @media only screen and (max-width: 1023px){
+  nav .items ul{
+    display: none;
+  }
+  .menu {
+    display: none;
+  }
+
+  .butons {
+    display: block;
+
+  }
+  nav {
+    padding: 30px 0;
+  }
+ }
+
+.col-3 h1,h4 {
+  text-align: center;
+  color: rgb(143, 143, 28);
+}
+
+.iconss{
+  justify-content: center;
+  width: 100%;
+  display: flex;
+  font-size: 40px;
+}
+
+.iconss i {
+  color: rgb(143, 143, 28);
+}
+
+.row {
+  background-color: #142336;
+}
+
+
+
+ 
