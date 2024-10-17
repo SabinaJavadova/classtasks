@@ -1,0 +1,207 @@
+* {
+  margin: 0px;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 300px;
+  border-bottom: 1px solid grey;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  background-color: #a4a4a4;
+}
+nav ul {
+  display: flex;
+  gap: 20px;
+}
+
+ nav ul a {
+  color: rgb(54, 53, 53);
+  font-size: 20px;
+ }
+
+ .foto{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+.bigfoto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ .yazi p {
+  font-size: 40px;
+ position: absolute; 
+ top: 40%;
+ left: 40%;
+ }
+
+ .br {
+  background-color: rgba(0, 0, 0, 0.687);
+  padding: 5px 10px;
+ }
+
+ .yazi {
+  position: relative;
+ }
+ h2 {
+  color:#2b2a2a;
+  padding: 15px;
+  font-size: 30px;
+ }
+
+ .proje {
+  padding: 30px;
+ }
+
+.col-3 {
+  position: relative;
+
+}
+
+.col-3 h3 {
+  font-size: 20px;
+  position: absolute;
+  background-color: black;
+  right: 56%;
+  bottom: 190px;
+  color: white;
+  padding: 5px 10px;
+}
+
+.card {
+  width: 300px;
+ 
+}
+
+.card img {
+  width: 100%;
+}
+
+#abaut h2 {
+  color: #1a0f00;
+  padding: 15px 15px;
+}
+
+#abaut p {
+  font-size: 20px;
+  padding: 15px 20px;
+  color: #1a0f00;
+}
+
+.cardperson h5 {
+  font-size: 30px;
+  padding: 10px 15px;
+  color: #4e4e4e;
+}
+
+.cardperson h6 {
+  font-size: 20px;
+  padding: 10px 10px;
+  color: #a4a4a4;
+}
+
+.cardperson {
+  padding: 30px;
+}
+
+button {
+  width: 100%;
+ padding: 5px 10px;
+background-color: #f1f1f1;
+border: none;
+cursor: pointer;
+transition: 0.3s;
+}
+.cardperson img {
+  width: 100%;
+  
+}
+
+.cardperson p {
+  padding: 5px 10px;
+}
+button:hover {
+  width: 100%;
+ padding: 10px 15px;
+background-color: #c9c9c9;
+border: none;
+cursor: pointer;
+}
+
+.soz p {
+  font-size: 20px;
+}
+
+.soz{
+ padding: 10px 60px;
+}
+
+#abaut{
+  padding: 10px 60px;
+}
+
+.proje {
+  padding: 10px 60px;
+}
+
+.allog{
+ padding: 20px 150px;
+}
+.name {
+  width: 70%;
+  padding: 10px 15px;
+}
+.email {
+  width: 70%;
+  padding: 10px 15px;
+}
+
+
+.subject {
+  width: 70%;
+  padding: 10px 15px;
+}
+
+.comment {
+  width: 70%;
+  padding: 10px 15px;
+}
+
+
+
+.butonqara .qara  {
+  width: 300px;
+  padding: 15px 15px;
+  background-color: #000000;
+  color: #f1f1f1;
+}
+
+.butonqara .qara:hover  {
+  width: 300px;
+  padding: 15px 15px;
+  background-color: #414141;
+  color: #f1f1f1;
+}
+
+.end {
+  background-color: black;
+  padding: 40px 40px;
+  color: #f1f1f1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.end a {
+  color: #f1f1f1;
+}
