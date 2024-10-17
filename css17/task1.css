@@ -1,0 +1,64 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "greape Strawberry Watermelon Watermelon"
+    "Greyfurt Greyfurt Watermelon Watermelon"
+    "Greyfurt Greyfurt Watermelon Watermelon"
+    "Melon Melon Pineapple Pineapple"
+    "Melon Melon Pineapple Pineapple";
+}
+
+.Pineapple { 
+  background-color: yellowgreen;
+  grid-area: Pineapple; 
+text-align: center;}
+
+.Melon { 
+  background-color: yellow;
+  grid-area: Melon;
+  text-align: center; }
+
+.Watermelon { 
+  background: red;
+  grid-area: Watermelon;
+  text-align: center; }
+
+.greape { 
+  background-color: rgb(0, 0, 56);
+  grid-area: greape; 
+padding: 40px;
+text-align: center;}
+
+.Strawberry {
+  background-color: brown;
+  grid-area: Strawberry; 
+padding: 20px;
+text-align: center;
+}
+
+.Greyfurt { 
+  background-color: orange;
+  grid-area: Greyfurt; 
+  text-align: center;}
+
+  h3 {
+    color: aliceblue;
+  }
+.Melon h3 {
+  color: black;
+}
+  .container {
+    padding: 90px 200px;
+    gap: 10px;
+    background-color: aliceblue;
+    text-align: center;
+  }
