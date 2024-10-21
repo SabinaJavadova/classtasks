@@ -1,0 +1,24 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.sectionf {
+  padding: 16rem 0;
+}
+
+.row i {
+  color: #0D6EFD;
+  font-size: 70px;
+}
+
+.letter {
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sectionc {
+  padding: 9rem 0;
+}
