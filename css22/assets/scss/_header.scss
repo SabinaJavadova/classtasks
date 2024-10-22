@@ -1,0 +1,12 @@
+nav {
+  @include flex (space-between,center);
+  padding: 15px;
+  background-color:#222222;
+  ul {
+    display: flex;
+    gap: 10px;
+    a {
+      color: white;
+    }
+  }
+}
