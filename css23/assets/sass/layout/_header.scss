@@ -1,0 +1,39 @@
+header{
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  width: 100%;
+  @include center(space-between,center);
+  nav{
+   position: relative;
+    ul{
+      display: flex;
+      gap: 30px;
+
+      li{
+        a{
+          font-size: 20px;
+          color: $color-primary;
+          font-weight: 500;
+          transition: 0.4s;
+          &:hover{
+            color: $color-red;
+          }
+        }
+      }
+    }
+  }
+  img{
+    
+    padding: 40px 150px;;
+  }
+  .icons{
+    display: flex;
+    gap: 20px;
+    padding: 40px 150px;
+    align-items: center;
+    justify-content: center;
+  }
+  i{
+    cursor: pointer;
+  }
+
+}
