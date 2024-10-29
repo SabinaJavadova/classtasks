@@ -1,0 +1,82 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.col-3 {
+height: 200px;
+width: 200px;
+cursor: pointer;
+transition: 1s;
+}
+
+.red {
+  background-color: brown;
+  /* transition: 0.4s; */
+}
+
+.red:hover{
+  color: white;
+  scale: 1.3;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+ 
+}
+.row {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+ .green {
+  background-color: rgb(13, 42, 13);
+}
+
+.green:hover{
+transform: translate(50%,-100%);
+}
+.purple {
+  background-color: purple;
+}
+.purple:hover{
+  transform: rotateY(360deg);
+}
+.yellow {
+  background-color: rgb(180, 180, 32);
+}
+
+.yellow:hover{
+  transform: skew(10deg);
+}
+
+.iki {
+  display: none;
+}
+
+.purple:hover .iki{
+  display: block;
+}
+
+.purple:hover .bir{
+  display: none;
+}
+
+
+.ikis {
+  display: none;
+}
+
+.yellow:hover .ikis{
+  display: block;
+}
+
+.yellow:hover .birs {
+  display: none;
+}

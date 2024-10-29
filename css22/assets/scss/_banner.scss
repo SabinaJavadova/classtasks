@@ -1,0 +1,22 @@
+#banner {
+  @include flex(center,center);
+flex-direction: column;
+background-color:#9ACD32;
+padding: 100px 300px;
+h1{
+  color: #ADFF2F;
+  font-size: 55px;
+}
+p{
+  color: #ADFF2F;
+  font-size: 19px;
+  padding: 7px;
+}
+button {
+  background-color: #286090;
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  border-radius: 7px
+}
+}
