@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+   
+    background-color:rgb(95, 95, 95);
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+.container .question{
+    padding: 10px;
+}
+.content pre{
+    color: white;
+    padding: 8px;
+    
+}
+
+.content{
+    background-color: grey;
+    height: 0;
+    transition: 0.7s;
+    overflow: hidden;
+}
