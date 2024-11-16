@@ -1,0 +1,8 @@
+.container{
+    display: flex;
+    gap: 50px;
+}
+.card{
+    border: 1px solid rgb(179, 178, 178);
+    padding: 20px 50px;
+}
