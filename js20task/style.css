@@ -1,24 +1,89 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family:  "Poppins", serif;;
-    list-style: none;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", serif;
+  list-style: none;
+  text-decoration: none;
+
+}
+
+main{
+    margin-top: 50px;
+}
+nav{
+    background-color: #b6c3db;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  
+}
+body{
+    background-color: #eaeffa;
+}
+
+header nav .container .div1 h2 {
+  color: #1a202c;
+}
+.div1 {
+  display: flex;
+  gap: 6px;
+}
+.div2 {
+  display: flex;
+  gap: 9px;
+  align-items: center;
+}
+.div2 a{
+    align-items: center;
     text-decoration: none;
 }
-.gradient-custom-3 {
-    background: #84fab0;
-    
-    background: -webkit-linear-gradient(to right, rgba(132, 250, 176, 0.5), rgba(143, 211, 244, 0.5));
-    
-    background: linear-gradient(to right, rgba(132, 250, 176, 0.5), rgba(143, 211, 244, 0.5))
-    }
-    .gradient-custom-4 {
-    
-    background: #84fab0;
-    
+.div2 i {
+  color: #3d5278;
+  border-radius: 50%;
+  padding: 8px;
+  background-color: #d2dff6;
+}
+header nav .container .div2 p {
+  color: #666666;
+}
+header nav .container .div2 p span {
+  font-weight: 700;
+  color: #000000;
+}
+header nav {
+  border-bottom: 1px solid #9db0d4;
+}
+header nav .container {
+  display: flex;
+  justify-content: space-between;
+  padding: 32px;
+}
+sup {
+  color: #3d5278;
+ 
+}
 
-    background: -webkit-linear-gradient(to right, rgba(132, 250, 176, 1), rgba(143, 211, 244, 1));
-    
-    background: linear-gradient(to right, rgba(132, 250, 176, 1), rgba(143, 211, 244, 1))
-    }
+.addToBasket {
+  background-color: #bac8e0;
+  color: #40557b;
+  border: none;
+  border-radius: 8px;
+  padding: 5px 10px;
+  margin-left: 10px;
+  transition: 0.3s;
+}
+.addToBasket:hover{
+    background-color: #bacff3;
+    color: #2a3447;
+}
+
+.card {
+  height: 560px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.card image{
+    width: 100%;
+}
