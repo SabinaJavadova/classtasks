@@ -1,0 +1,86 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", serif;
+  list-style: none;
+  text-decoration: none;
+}
+
+nav{
+  display: flex;
+  padding: 50px;
+  justify-content: space-between;
+ background-color: #c9ceab;
+ box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+nav h2{
+  color: #585b4c;
+}
+input {
+padding: 5px 20px;
+border-radius: 7px;
+width: 250px;
+border: none;
+background-color: rgb(236, 241, 233);
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+.sites{
+  display: flex;
+  gap: 20px;
+}
+.sites a{
+ color:  #585b4c;
+ font-weight: 600;
+}
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: auto;
+ margin-top: 40px;
+
+ gap: 40px;
+}
+.container .card{
+  width: 30%;
+  padding: 40px;
+  text-align: center;
+margin: auto;
+background-color: #c9ceab;
+box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+border-radius: 8px
+}
+
+body{
+  background-color: #9c9d86;
+}
+
+.btn{
+  padding: 5px 10px;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  margin-top: 20px;
+  background-color: #edf0d8;
+  color: #76795b;
+}
+
+.edit{
+  padding: 5px 18px;
+}
+.delete{
+  background-color: #9c9f8a;
+  color: #edf0d8 ;
+}
+
+
+main h3{
+  text-align: center;
+  padding: 10px;
+  margin-top: 30px;
+  color: #edf0d8;
+font-size: 40px;
+}
