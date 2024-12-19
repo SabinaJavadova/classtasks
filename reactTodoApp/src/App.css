@@ -1,0 +1,258 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+}
+
+#root{
+  width: 100%;
+  height: 100vh;
+}
+
+body{
+
+    background-color: rgb(145, 199, 238) ;
+}
+
+h1{
+    text-align: center;
+    padding: 30px;
+    color: white;
+
+}
+
+.container{
+    margin: auto;
+    width: 45%;
+    background-color:rgb(250, 240, 230);
+    /* height: 550px;  */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    overflow: hidden;
+
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.buttons button{
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgb(56, 136, 222);
+    transition: 0.3s;
+    color: white;
+}
+.buttons .clear{
+    background-color: rgb(130, 130, 130);
+    color: white;
+}
+.buttons button:hover{
+    background-color: rgb(228, 221, 156);
+}
+
+
+.buttons .clear:hover{
+    background-color: rgb(90, 90, 90);
+}
+
+
+.adding{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.adding input{
+    width: 80%;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid gray;
+    font-size: 17px;
+}
+
+.adding button{
+    padding: 5px 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: rgb(222, 205, 56);
+    transition: 0.3s;
+    color: white;
+}
+
+.adding .add:hover{
+    background-color: rgb(239, 166, 64);
+}
+.adding .add{
+    background-color: blue;
+}
+.added{
+    margin: auto;
+    width: 100%;
+    /* height: 450px; */
+    background-color: rgb(250, 240, 230);
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.added .block{
+    padding: 7px 20px;
+    width: 100%;
+    border-radius: 8px;
+    background-color: rgb(200, 221, 230);
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+    margin: 10px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.block input{
+   width: 6%;
+   height: 17px;
+   cursor: pointer;
+}
+.block h2{
+    font-size: 21px;
+    font-weight: 400;
+    color: black;
+}
+.block{
+    position: relative;
+}
+.icons{
+
+    position: absolute;
+    display: flex;
+    gap: 15px;
+    right: 30px;
+
+    
+}
+
+.block i{
+    color: rgb(130, 130, 130);
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 17px;
+
+}
+.block i:hover{
+    color: rgb(69, 69, 69);
+    
+
+}
+
+
+.edit-bg{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.4);
+    justify-content: center;
+    align-items: center;
+    display: none;
+    z-index: 1000;
+}
+
+.edit-bg input{
+    font-size: 18px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    padding: 2px 15px;
+    width: 60%;
+}
+
+.edit-bg h2{
+    font-size: 25px;
+    font-weight: 500;
+
+}
+
+.edit-bg .save{
+    background-color: rgb(120, 143, 120);
+}
+
+.edit-bg .save:hover{
+    background-color: rgb(95, 113, 95);
+}
+
+.edit-bg .cancel-edit{
+    background-color: rgb(172, 114, 42);
+
+}
+
+.edit-bg .cancel-edit:hover{
+    background-color: rgb(140, 97, 44);
+}
+
+@media only screen and (max-width: 768px) {
+    .buttons button{
+        width: 100%;
+    }
+    .buttons{
+        gap: 10px;
+    }
+    .adding{
+        flex-wrap: wrap;
+    }
+
+    .adding input{
+        width: 100%;
+        padding: 4px;
+    }
+    .adding button{
+        width: 100%;
+    }
+    .choice{
+        flex-wrap: wrap;
+    }
+    .choice button{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .modal input{
+        width: 100%;
+        padding: 4px;
+    }
+    .modal{
+        width: 80%;
+    }
+
+    .container{
+        width: 80%;
+        
+    }
+
+    .scales{
+        width: 15%;
+    }
+
+}
+
+
+.icons{
+    cursor: pointer;
+}
