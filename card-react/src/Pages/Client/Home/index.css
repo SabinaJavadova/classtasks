@@ -191,3 +191,18 @@ body {
     margin-top: 15px;
   }
   
+  .cards{
+    display: flex;
+    flex-wrap:wrap;
+    gap: 50px;
+  }
+  .ikon {
+    font-size: 1.8rem;
+    transition: 0.4s;
+    margin-left: 15rem;
+  }
+  .ikon:hover {
+    font-size: 2rem;
+    color: red;
+
+  }
