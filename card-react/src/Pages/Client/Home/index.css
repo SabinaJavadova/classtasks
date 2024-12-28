@@ -206,3 +206,20 @@ body {
     color: red;
 
   }
+  .clear-favorites-button{
+    color: white;
+    background-color: red;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 7px;
+    margin-left: 50%;
+    cursor: pointer;
+    transition: 0.4s;
+  }
+
+  .clear-favorites-button:hover{
+    background-color: rgb(157, 2, 2);
+  }
+  .parag{
+    color: red;
+  }
