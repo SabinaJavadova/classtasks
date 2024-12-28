@@ -32,7 +32,7 @@ body {
     font-size: 1.25rem;
     margin-top: 10px;
   }
-
+  
   .cta-button {
     background-color: #e74c3c;
     color: white;
@@ -190,12 +190,14 @@ body {
     color: #e74c3c;
     margin-top: 15px;
   }
-  
+
   .cards{
     display: flex;
     flex-wrap:wrap;
     gap: 50px;
+  
   }
+
   .ikon {
     font-size: 1.8rem;
     transition: 0.4s;
@@ -205,4 +207,22 @@ body {
     font-size: 2rem;
     color: red;
 
+  }
+
+  .ip{
+    padding: 20px;
+  }
+  .ip input{
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+  }
+
+  .sorting-controls{
+    padding: 20px;
+  }
+  .sorting-controls select{
+    padding: 5px;
+    border-radius: 8px;
+    border: none;
   }
