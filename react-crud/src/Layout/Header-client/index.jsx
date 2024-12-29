@@ -10,6 +10,7 @@ const HeaderClient = () => {
                 <li><NavLink to={"/"}>Home</NavLink></li>
                 <li><NavLink to={"/Favorites"}>Favorites</NavLink></li>
                 <li><NavLink to={"/Products"}>Products</NavLink></li>
+                <li><NavLink to={"/Basket"}>Basket</NavLink></li>
             </ul>
         </nav>
     </header>

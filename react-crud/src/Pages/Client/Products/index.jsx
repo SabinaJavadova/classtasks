@@ -5,7 +5,7 @@ import { useFavorites } from '../../../Context/FavoritesContext';
 import getAllData from '../../../Data/index.js';
 import { endpoints } from '../../../Data/constant.js';
 import "../Products/index.css";
-
+import {Helmet} from "react-helmet-async"
 const Products = () => {
   const [products, setProducts] = useState([]);
   const [searchVal, setSearchVal] = useState("");
@@ -55,6 +55,11 @@ const Products = () => {
   }, []);
 
   return (
+    <>
+   <Helmet>
+
+   <title>Products</title>
+   </Helmet>
     <div className="App">
       <div className="ip">
         <input type="text" placeholder="Search..." onChange={handleSearch} />
@@ -101,6 +106,7 @@ const Products = () => {
         </div>
       </footer>
     </div>
+    </>
   );
 };
 

@@ -2,7 +2,7 @@ import React from 'react';
 import { useFavorites } from '../../../Context/FavoritesContext';
 import { MdFavorite } from 'react-icons/md';
 import "../Favorites/index.css";
-
+import {Helmet} from "react-helmet-async"
 const Favorites = () => {
   const { favorites, removeFromFavorites, clearFavorites } = useFavorites();
 
@@ -15,6 +15,10 @@ const Favorites = () => {
   };
 
   return (
+    <>
+    <Helmet>
+      <title>Favorites</title>
+    </Helmet>
     <div>
       <h2>Your Favorites</h2>
       <div className="cards">
@@ -47,6 +51,7 @@ const Favorites = () => {
         </button>
       )}
     </div>
+    </>
   );
 };
 
