@@ -1,4 +1,5 @@
 
+
 import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 
 export const categoriesApi = createApi({
@@ -50,4 +51,4 @@ export const {
   useDeleteCategoryByIdMutation,
   usePostNewCategoryMutation,
   useEditCategoryMutation,
-} = categoriesApi;
+} = categoriesApi;
